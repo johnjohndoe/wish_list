@@ -11,5 +11,6 @@ This app is not a service. If you want to use this app, deploy it on your own se
 * Run `git clone git@github.com:kdisneur/wish_list`
 * Run `cd wish_list`
 * Run `./bootsrap.sh` to generate a settings file (MongoDB authentication) and an htaccess (to protect your application)
+* Add and commit the generated configuration files
 * Add Heroku remote `git remote add heroku git@heroku.com:<YOUR_HEROKU_APP>.git`
 * And you can push your application `git push heroku`
